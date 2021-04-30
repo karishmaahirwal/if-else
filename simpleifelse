@@ -1,0 +1,23 @@
+a=33
+b=200l
+if b>a:
+    print("b is greater than a")
+else:
+    print("b is than a")
+
+
+password=(input("type your password"))
+if len(password)<6:
+    print("it is too short character must be in 6 to 12 character")
+elif len(password)>12:
+    print("it is too long character must be in 6 to 12 character")
+elif len(password)>=6 and (password)<=12:
+    print("password is okk")
+    
+
+number=int(input("enter a number"))
+count=1
+while count<=10:
+product=number*count
+print(number,"*",count,"+",product)
+count=count=1

@@ -1,0 +1,7 @@
+user=int(input("enter any number"))
+if user%5==0:
+    print("it is multiple of 5")
+elif user<50:
+    print("is less than 50")
+else:
+    print("is not less than")
